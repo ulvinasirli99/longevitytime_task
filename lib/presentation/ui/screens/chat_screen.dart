@@ -42,7 +42,7 @@ class _ChatScreenState extends State<ChatScreen> {
         child: Column(
           children: [
             Flexible(
-              flex: 9,
+              flex: 7,
               child: Container(
                 color: AppColors.instance.chatBackroundColor,
                 child: Padding(
