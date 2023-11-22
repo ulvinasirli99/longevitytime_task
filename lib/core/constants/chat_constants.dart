@@ -14,8 +14,20 @@ const String chatStatus = "Online";
 const String addMyContacts = "Add to my contacts  ↗";
 
 List<MessageModel> fakeMessageList = [
-  MessageModel("Hello", 1, MessageType.sender, '2020/Aug/24', '18:00'),
-  MessageModel("Hi", 2, MessageType.receiver, '2020/Aug/25', '12:00'),
+  MessageModel(
+    message: "Hello",
+    userId: 1,
+    messageType: MessageType.sender,
+    date: '2020/Aug/24',
+    seenTime: '18:00',
+  ),
+  MessageModel(
+    message: "Hi",
+    userId: 2,
+    messageType: MessageType.receiver,
+    date: '2020/Aug/25',
+    seenTime: '12:00',
+  ),
 ];
 
 const String chatInfo =

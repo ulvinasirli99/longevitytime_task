@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:test_task_app/core/app/styles/text_styles.dart';
 import 'package:test_task_app/core/app/themes/app_colors.dart';
 import 'package:test_task_app/domain/models/message_model.dart';
+import 'package:test_task_app/presentation/ui/widget/chat/chat_input_widget.dart';
+import 'package:test_task_app/presentation/ui/widget/chat/chat_item.dart';
+import 'package:test_task_app/presentation/ui/widget/chat/chat_user.dart';
 import '../../../core/constants/chat_constants.dart';
-import '../widget/chat_input_widget.dart';
-import '../widget/chat_item.dart';
-import '../widget/chat_user.dart';
-import '../widget/contact_mode_widget.dart';
+import '../widget/chat/contact_mode_widget.dart';
 
 class ChatScreen extends StatefulWidget {
   const ChatScreen({super.key});

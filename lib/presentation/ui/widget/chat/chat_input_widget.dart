@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:test_task_app/core/app/styles/text_styles.dart';
+import 'package:test_task_app/core/app/themes/app_colors.dart';
+import 'package:test_task_app/core/constants/chat_constants.dart';
 
-import '../../../core/app/styles/text_styles.dart';
-import '../../../core/app/themes/app_colors.dart';
-import '../../../core/constants/chat_constants.dart';
 
 class ChatInputWidget extends StatelessWidget {
   const ChatInputWidget({

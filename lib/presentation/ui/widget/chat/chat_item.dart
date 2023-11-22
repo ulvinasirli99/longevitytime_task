@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:test_task_app/core/app/styles/text_styles.dart';
 import 'package:test_task_app/core/app/themes/app_colors.dart';
-
-import '../../../domain/models/message_model.dart';
+import 'package:test_task_app/domain/models/message_model.dart';
 
 class ChatItemWidget extends StatelessWidget {
   final MessageType? messageType;
